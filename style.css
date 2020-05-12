@@ -1,0 +1,57 @@
+body {
+  font-family: Roboto;
+  margin: 0px 75px 75px 75px;
+  background: #fcedf3;
+}
+
+h1 {
+  border-radius: 10px; 
+  color: white;
+  text-align: center;
+  padding: 30px;
+  background: #FF512F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button {
+  margin: 0px 0px 5px 10px;
+  padding: 10px;
+  color: white;
+  background: #DF2872;
+  border-radius: 3px;
+}
+
+button:hover {
+  color: white;
+  background: #FF512F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#total-guesses-div {
+  margin: 10px;
+  font-size: 13px; 
+  font-weight: normal;
+}
+
+#game {
+padding: 0px 100px 0px 100px;
+}
+
+#game div {
+  border: 1px solid grey;
+  width: 15%;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.hidden {
+  width: 0;
+  height: 0;
+  max-width: 0;
+  max-height: 0;
+  visibility: hidden;
+}
